@@ -1,0 +1,279 @@
+
+/*For bigger screen then normal 960px desktop*/
+@media (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+.kent-header-menu ul li {
+  margin: 0 5px;
+}
+.kent-header-social-icon ul li {
+  margin: 0 10px;
+}
+.kent-product-filter-content p {
+  font-size: 1em;
+}
+.kent-product-filter select {
+  font-size: 1em;
+}
+
+}
+
+/*For Tablet Layout*/
+@media (min-width: 768px) and (max-width: 991px) {
+.kent-header-single-content h3 {
+  font-size: .775em;
+}
+.kent-header-menu {
+  flex: 0 0 70%;
+}
+.kent-header-menu ul li {
+  margin: 0 3px;
+}
+.kent-header-social-icon ul li {
+  margin: 0 4px;
+}
+.kent-header-menu ul li a {
+  font-size: .875em;
+}
+.kent-single-content {
+  padding: 20px 0;
+}
+.kent-single-content h2 {
+  font-size: 1.4em;
+}
+.kent-banner-area {
+  padding: 100px 0;
+}
+.kent-banner-ingle-content h1 {
+  font-size: 2.5em;
+}
+.kent-product-filter {
+  top: -8px;
+}
+.kent-product-filter-content p {
+  font-size: 1em;;
+}
+.kent-product-filter select {
+  margin-bottom: 10px;
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0) url(../images/arrow-02.png) no-repeat scroll 95% center;
+}
+.kent-product-filter-right h3 {
+  font-size: 1.1em;
+}
+.kent-product-filter-right p {
+  font-size: .938em;
+}
+.kent-maincontent-icon {
+  flex: 0 0 24%;
+  margin-right: 30px;
+}
+.kent-maincontent-title h4 {
+  margin: 0 0 10px;
+}
+.kent-tab-area {
+  padding: 60px 0 100px;
+}
+ul.tabs li {
+  font-size: 1.3em;
+  margin: 0 18px;
+}
+.kent-maincontent-area.kent-v4 {
+  padding: 50px 0 100px;
+}
+
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+.kent-header-top-area {
+  text-align: center;
+  padding: 10px 0 5px;
+}
+.menu_toggle {
+  display: block;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menu_toggle span {
+  margin-right: 10px;
+}
+.kent-header-menu {
+  position: absolute;
+  display: none;
+  background-color: #333;
+  width: 100%;
+  z-index: 1;
+  top: 69px;
+}
+.kent-header-menu ul li {
+  display: block;
+  margin: 10px 20px;
+}
+.kent-header-single-content h3 {
+  margin: 0 0 5px;
+}
+.kent-search i{
+  display: none;
+}
+.kent-product-filter select {
+  font-size: 1em;
+}
+.kent-product-filter-content p {
+  font-size: 1em;
+}
+.kent-single-content {
+  padding: 20px 0;
+}
+.kent-single-content h2 {
+  font-size: 1.1em;
+}
+.kent-banner-area {
+  padding: 70px 0;
+  text-align: center;
+}
+.kent-banner-ingle-content h1 {
+  font-size: 2em;
+}
+.kent-maincontent-area {
+  text-align: center;
+}
+.kent-maincontent-area.kent-v4 {
+  padding: 50px 0;
+}
+.kent-maincontent-item {
+  display: block;
+}
+.kent-maincontent-icon {
+  margin-right: 0;
+  width: 150px;
+  margin: 0 auto 30px;
+}
+.kent-fotter-area {
+  padding: 80px 0 50px;
+}
+.kent-fotter-left-single-img {
+  margin-bottom: 30px;
+}
+.kent-extra-menu {
+  text-align: center;
+}
+.single-content {
+  font-size: 1.5em;
+}
+.kent-single-content-warap {
+  text-align: center;
+}
+.kent-tab-area {
+  padding: 60px 0 100px;
+}
+ul.tabs li {
+  font-size: 1em;
+  margin: 0 20px;
+}
+.kent-tab-img img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.new-page .kent-tab-content {
+  margin-top: 40px;
+}
+
+}
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+.kent-header-menu {
+  top: 51px;
+}
+.kent-header-single-content h3 {
+  font-size: .8em;
+}
+.kent-banner-area {
+  padding: 50px 0;
+}
+.kent-banner-ingle-content h1 {
+  font-size: 1.5em;
+  position: 15px 25px;
+}
+.kent-product-filter-area {
+  text-align: center;
+}
+.kent-product-filter-content {
+  margin-bottom: 30px;
+}
+.kent-product-filter-content p {
+  margin: 0 0 10px;
+}
+.kent-product-filter select {
+  background: rgba(0, 0, 0, 0) url(../images/arrow-02.png) no-repeat scroll 100% center;
+  width: 40%;
+  margin-bottom: 5px;
+}
+.kent-product-filter-right h3 {
+  font-size: 1.2em;
+}
+.kent-product-filter-right p {
+  font-size: 1em;
+}
+.kent-maincontent-title p {
+  font-size: .875em;
+  line-height: 1.5;
+}
+.kent-contact-form-box {
+  display: block;
+}
+.kent-popup-title h3 {
+  font-size: 1.2em;
+  margin: 0 0 20px;
+}
+.kent-popup-title p {
+  font-size: 1em;
+}
+.kent-product-result-area {
+  padding: 15px 0 50px;
+  text-align: center;
+}
+.single-content {
+  font-size: 1em;
+}
+.kent-content-item h3 {
+  font-size: 1.3em;
+}
+.kent-content-item p {
+  font-size: 1em;
+}
+.kent-btn{
+  font-size: 1.5em;
+}
+.kent-tab-area {
+  padding: 20px 0 60px;
+}
+ul.tabs {
+  margin: 0 0 25px;
+}
+ul.tabs li {
+  font-size: .775em;
+  margin: 0 6px;
+}
+.kent-tab-content {
+  font-size: .938em;
+}
+.tab-link.current::before {
+  bottom: -30px;
+}
+.kent-copy-right-content p {
+  font-size: .938em;
+  text-align: center;
+}
+
+}

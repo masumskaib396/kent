@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Atrament_Regular';
+    src: url('../fonts/Atrament_Regular.eot');
+    src: url('../fonts/Atrament_Regular.eot') format('embedded-opentype'),
+         url('../fonts/Atrament_Regular.woff2') format('woff2'),
+         url('../fonts/Atrament_Regular.woff') format('woff'),
+         url('../fonts/Atrament_Regular.ttf') format('truetype'),
+         url('../fonts/Atrament_Regular.svg#Atrament_Regular') format('svg');
+}
